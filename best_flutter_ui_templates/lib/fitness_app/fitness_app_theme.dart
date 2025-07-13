@@ -20,14 +20,15 @@ class FitnessAppTheme {
   static const Color spacer = Color(0xFFF2F2F2);
   static const String fontName = 'Roboto';
 
+
   static const TextTheme textTheme = TextTheme(
-    headline4: display1,
-    headline5: headline,
-    headline6: title,
-    subtitle2: subtitle,
-    bodyText2: body2,
-    bodyText1: body1,
-    caption: caption,
+headlineLarge: display1, // This replaces headline4
+    headlineMedium: headline, // This replaces headline5
+    headlineSmall: title,     // This replaces headline6
+   titleMedium: subtitle,    // Updated from subtitle2
+    bodyMedium: body2,        // Updated from bodyText2
+    bodyLarge: body1,         // Updated from bodyText1
+    labelSmall: caption, 
   );
 
   static const TextStyle display1 = TextStyle(
